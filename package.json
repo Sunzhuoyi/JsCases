@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "script-name": "babel-node script.js"
+  }
+}
