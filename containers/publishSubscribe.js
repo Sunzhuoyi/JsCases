@@ -1,3 +1,4 @@
+// 发布订阅模式
 function Public() {
     this.handlers = {};
 }
@@ -9,7 +10,6 @@ Public.prototype = {
             self.handlers[eventType] = [];
         }
         self.handlers[eventType].push(handler);
-        return this;
     },
 
     // 触发事件
@@ -19,23 +19,24 @@ Public.prototype = {
         for(var i = 0; i < self.handlers[eventType].length; i++) {
             self.handlers[eventType][i].apply(self, handleArgs);
         }
-
-        return self;
     },
 
     // 删除事件
     off: function (eventType, handler) {
         var currentEvent = this.handlers[eventType];
+        console.log(30, this.handlers, currentEvent);
         var len = 0;
         if (currentEvent) {
             len = currentEvent.length;
             for (var i = len - 1; i >= 0; i--) {
+                console.log(35, currentEvent[i], handler);
                 if (currentEvent[i] === handler) {
+                    console.log(36)
                     currentEvent.splice(i, 1);
                 }
             }
         }
-        return this;
+        console.log(39, this.handlers);
     }
 };
 
@@ -50,8 +51,14 @@ Publisher.on("a", function (data) {
     console.log(2 + data);
 });
 
+Publisher.off("a", function (data) {
+    console.log(2 + data);
+});
+
 //触发事件a
 Publisher.emit("a", "我是第一次调用的参数");
 Publisher.emit("a", "我是第二次调用的参数");
+
+Publisher.emit("a", "我是第三次调用的参数");
 
 
