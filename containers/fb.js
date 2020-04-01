@@ -30,3 +30,6 @@ function fb3(n) {
     }
     return sum
 }
+
+let a = fb2(5)
+console.log(35, a)
