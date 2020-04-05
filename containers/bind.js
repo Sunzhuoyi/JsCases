@@ -51,7 +51,7 @@ if (!Function.prototype.bind) {
 
 // MDN 实现
 // Does not work with `new funcA.bind(thisArg, args)`
-/*
+
 if (!Function.prototype.bind) (function(){
     var slice = Array.prototype.slice;
     Function.prototype.bind = function() {
@@ -68,8 +68,8 @@ if (!Function.prototype.bind) (function(){
             return thatFunc.apply(thatArg, funcArgs);
         };
     };
-})();*/
-(function(){
+})();
+/*(function(){
     var slice = Array.prototype.slice;
     Function.prototype.bind = function() {
         var thatFunc = this, thatArg = arguments[0];
@@ -89,7 +89,7 @@ if (!Function.prototype.bind) (function(){
             return thatFunc.apply(thatArg, funcArgs);
         };
     };
-})()
+})()*/
 
 var obj = {
     name: '小张',
