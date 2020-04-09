@@ -6,6 +6,7 @@ Public.prototype = {
     // 订阅事件
     on: function (eventType, handler) {
         var self = this;
+        console.log(9, self)
         if (!(eventType in self.handlers)) {
             self.handlers[eventType] = [];
         }
@@ -52,13 +53,15 @@ Publisher.on("a", function (data) {
 });
 
 Publisher.off("a", function (data) {
-    console.log(2 + data);
+    console.log(3 + data);
 });
 
 //触发事件a
 Publisher.emit("a", "我是第一次调用的参数");
+
 Publisher.emit("a", "我是第二次调用的参数");
 
 Publisher.emit("a", "我是第三次调用的参数");
+
 
 
