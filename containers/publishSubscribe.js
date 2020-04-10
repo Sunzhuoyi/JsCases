@@ -38,6 +38,14 @@ Public.prototype = {
             }
         }
         console.log(39, this.handlers);
+    },
+
+    // once
+    once: function (eventType, callback) {
+        this.on(eventType, (...args)=> {
+            callback(...args);
+            this.off(eventType)
+        })
     }
 };
 
