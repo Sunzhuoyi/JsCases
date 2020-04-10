@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d0a932-8cde-4f9b-9933-6e675540d092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/containers/curry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/curry.js" beforeDir="false" afterPath="$PROJECT_DIR$/containers/curry.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/containers/curry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="175">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -225,31 +224,31 @@
       <workItem from="1556251916559" duration="12648000" />
       <workItem from="1556535523069" duration="17537000" />
       <workItem from="1557322000426" duration="7415000" />
-      <workItem from="1585402745163" duration="30934000" />
+      <workItem from="1585402745163" duration="32364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68534000" />
+    <option name="totallyTimeSpent" value="69964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="25" width="1222" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14601019" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10780985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4745331" visible="true" weight="0.2278481" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47368422" visible="true" weight="0.24525316" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4804754" weight="0.28164557" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5254669" side_tool="true" visible="true" weight="0.2278481" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.47962648" weight="0.18987341" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5263158" side_tool="true" visible="true" weight="0.24525316" />
       <window_info anchor="right" id="Nativescript Palette" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -386,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/containers/curry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="175">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

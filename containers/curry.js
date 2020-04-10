@@ -8,6 +8,9 @@ function curry(fn, arr=[]) {
     }
 }
 
+// ES6
+const curryes6 = (fn, arr) => {fn.length === arr.length ? fn.apply(null, arr) : (...args) => curryes6(fn, [...arr, ...args])}
+
 function add(x, y, z) {
     return (x + y + z)
 }
