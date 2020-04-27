@@ -59,3 +59,5 @@ function handle() {
 }
 
 window.addEventListener('scroll', throttleBoth(handle, 1000))
+
+1
