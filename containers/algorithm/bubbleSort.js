@@ -20,3 +20,5 @@ function bubbleSort(arr) {
 bubbleSort(arr);
 
 console.log(20, arr)
+
+// 原地排序 稳定 O(n) O(n^2) O(n^2) /最好/最坏/平均
