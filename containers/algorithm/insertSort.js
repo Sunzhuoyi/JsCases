@@ -18,3 +18,7 @@ function insertSort(arr) {
 }
 insertSort(arr);
 console.log(19, arr)
+
+// 原地排序 稳定 O(n) O(n^2) O(n^2) /最好/最坏/平均
+
+// 插入排序比冒泡排序更受欢迎是因为数据交换写的代码更少
