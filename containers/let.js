@@ -1,10 +1,10 @@
 for (var i = 0; i < 5; i++) {
     console.log(2, i)
 }
-console.log(4, i);
-for (let i = 0; i < 5; i++) {
-    console.log(5, i)
+console.log("var", i);
+for (let j = 0; j < 5; j++) {
+    console.log(5, j)
 }
-console.log(6, i)
+//  console.log("let", j) // j is not undefined
 
 
