@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>重绘回流demo</title>
+</head>
+<style>
+    #demo {
+        width: 50px;
+        height: 100px;
+        background-color: crimson;
+        margin: 0 auto;
+        margin-top: 100px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 100px;
+    }
+</style>
+<body>
+    <div id="demo">
+        demo
+    </div>
+</body>
+<script>
+    setTimeout(function () {
+        var el = document.getElementById("demo");
+        // el.style.width = "200px";
+        var offsetWidth = el.offsetWidth;
+        // var width = el.style.width;
+        // var height = el.style.height;
+
+        el.style.height =  offsetWidth + "px";
+        el.style.padding = "6px"
+    }, 2000)
+
+</script>
+</html>
