@@ -5,20 +5,19 @@ function Public() {
 Public.prototype = {
     // 订阅事件
     on: function (eventType, handler) {
-        var self = this;
-        console.log(9, self)
-        if (!(eventType in self.handlers)) {
-            self.handlers[eventType] = [];
+        if (!(eventType in this.handlers)) {
+            this.handlers[eventType] = [];
         }
-        self.handlers[eventType].push(handler);
+        this.handlers[eventType].push(handler);
     },
 
     // 触发事件
     emit: function (eventType) {
-        var self = this;
+        console.log(this,this.handlers);
         var handleArgs = Array.prototype.slice.call(arguments, 1);
-        for(var i = 0; i < self.handlers[eventType].length; i++) {
-            self.handlers[eventType][i].apply(self, handleArgs);
+        console.log("handleArgs", handleArgs);
+        for(var i = 0; i < this.handlers[eventType].length; i++) {
+            this.handlers[eventType][i].apply(this, handleArgs);
         }
     },
 

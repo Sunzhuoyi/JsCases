@@ -16,6 +16,7 @@ new Foo.getName();
 new Foo().getName();
 new new Foo().getName();
 
+
 // 2 4 1 1
 // 2 3 3
 
