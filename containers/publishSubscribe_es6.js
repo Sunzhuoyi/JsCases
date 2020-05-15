@@ -24,7 +24,7 @@ class PubSub {
 
         for (var i = 0; i < handles.length; i++) {
             if (handles[i] === fn) {
-                handles.slice(i, 1)
+                handles.splice(i, 1)
             }
         }
     }
