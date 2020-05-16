@@ -6,7 +6,6 @@ for (let i = 0; i < 100; i++) {
     arr.push(random);
 }
 
-console.log(arr);
 
 let length = arr.length;
 
@@ -20,12 +19,12 @@ for (let i = 0; i < length; ++i) {
             flag = true;
         }
     }
+    // 没有需要冒泡转换的了
     if (!flag) {
         break;
     };
 }
 
-console.log(28, arr);
 
 // 插入排序
 let newArr = [3,1,7,9];
@@ -42,4 +41,4 @@ for (let i = 0; i < length; ++i) {
     }
     newArr[j + 1] = value;
 }
-console.log(newArr);
+// console.log(newArr);
