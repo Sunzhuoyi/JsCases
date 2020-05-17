@@ -13,6 +13,7 @@ function insertSort(arr) {
                 break;
             }
         }
+        // 因为j--后j减少了1，所以空出来的a[j] 现在是a[j + 1]
         arr[j + 1] = value
     }
 }
