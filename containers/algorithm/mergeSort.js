@@ -19,5 +19,19 @@ const mergeArr = (left, right) => {
 
 const mergeSort = (arr) => {
     if (arr.length <= 1) return arr;
-    const middle = arr.
+    const middle = Math.floor(arr.length / 2);
+    const left = arr.slice(0, middle);
+    const right = arr.slice(middle);
+
+    return mergeArr(mergeSort(left), mergeSort(right))
+};
+
+const testArr = [];
+let i = 0;
+while (i < 100) {
+    testArr.push(Math.floor(Math.random() * 1000));
+    i++
 }
+
+const res = mergeSort(testArr);
+console.log(43, res);
