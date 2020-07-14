@@ -13,7 +13,6 @@ const binaryFind = (sortedArr, target) => {
             low = mid + 1
         }
     }
-
     return -1
 };
 
